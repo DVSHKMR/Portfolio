@@ -1,33 +1,33 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG1 from '../../assets/portfolio1.png'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+// import IMG6 from '../../assets/portfolio6.jpg'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'github pages link'
+    title: 'Education Website',
+    github: 'https://github.com/DVSHKMR/Education-Website',
+    demo: 'https://dvshkmr.github.io/Education-Website/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'enter the project title',
-    github: 'https://github.com',
-    demo: 'github pages link'
+    title: 'COLOR Website',
+    github: 'https://github.com/DVSHKMR/COLOR-Website',
+    demo: 'https://dvshkmr.github.io/COLOR-Website/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'enter the project title',
-    github: 'https://github.com',
-    demo: 'github pages link'
+    title: 'Cloud Hosting Website',
+    github: 'https://github.com/DVSHKMR/Loruki-Website',
+    demo: 'https://heroic-cannoli-233912.netlify.app/'
   },
   {
     id: 4,
@@ -39,17 +39,17 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: 'enter the project title',
-    github: 'https://github.com',
-    demo: 'github pages link'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'enter the project title',
-    github: 'https://github.com',
+    title: 'Frontend Mentor Challenges',
+    github: 'https://github.com/DVSHKMR/Frontend-Mentor-Challenges',
     demo: 'github pages link'
   }
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: 'enter the project title',
+  //   github: 'https://github.com',
+  //   demo: 'github pages link'
+  // }
 ]
 
 
@@ -79,6 +79,7 @@ const Portfolio = () => {
             <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
             </div>
         </article>
+        
             )
           })
         }         
