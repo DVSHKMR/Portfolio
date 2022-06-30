@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import challenges from './challenges'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
@@ -29,20 +30,20 @@ const data = [
     github: 'https://github.com/DVSHKMR/Loruki-Website',
     demo: 'https://heroic-cannoli-233912.netlify.app/'
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'enter the project title',
-    github: 'https://github.com',
-    demo: 'github pages link'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Frontend Mentor Challenges',
-    github: 'https://github.com/DVSHKMR/Frontend-Mentor-Challenges',
-    demo: 'github pages link'
-  }
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: 'enter the project title',
+  //   github: 'https://github.com',
+  //   demo: 'github pages link'
+  // },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: 'Frontend Mentor Challenges',
+  //   github: 'https://github.com/DVSHKMR/Frontend-Mentor-Challenges',
+  //   demo: 'github pages link'
+  // }
   // {
   //   id: 6,
   //   image: IMG6,
@@ -78,7 +79,11 @@ const Portfolio = () => {
             <a href={github} className='btn' target='_blank'>Github</a>
             <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
             </div>
+
         </article>
+
+
+        
         
             )
           })
